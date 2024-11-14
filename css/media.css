@@ -429,7 +429,7 @@
     .billbord__block .title-big br {
         display: block;
     }
-}
+} 
 
 @media only screen and (max-width : 340px) {
     .lead__images img {
