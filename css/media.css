@@ -249,8 +249,8 @@
         z-index: 3;
     }
     .billbord__text {
-        margin-bottom: 28px;
-    }
+        margin-bottom: 23px;
+    } 
     .buttons-page .btn-main {
         height: 49px;
     }
@@ -405,6 +405,9 @@
     }
     .tags-wrap {
         padding-bottom: 25px;
+    }
+    .title-big {
+        margin-bottom: 30px;
     }
 }
 
