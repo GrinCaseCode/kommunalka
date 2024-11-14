@@ -72,6 +72,7 @@ $(".sandwich").click(function() {
 $(".menu-overlay").click(function() {
 	$(".menu-mobile").slideUp(200);
 	$(".menu-overlay").fadeOut(200);
+	$(".header").removeClass("active");
 	$(".sandwich").removeClass("active");
 	$("body").removeClass("no-scroll");
 });
