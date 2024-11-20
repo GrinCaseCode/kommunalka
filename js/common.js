@@ -39,18 +39,18 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
         });
     }
 
+    $(window).on('scroll', parallaxEffect);
+    $(window).on('resize', parallaxEffect);
+
+    // Инициализация эффекта при загрузке страницы
+    parallaxEffect();
+	
 	$(".lead__block").on('mousemove', function(e) {
 		var offsetX = (e.pageX / $(window).width() - 0.5) * 20;
 		var offsetY = (e.pageY / $(window).height() - 0.5) * 20;
 
 		$(this).css('transform', 'translate(' + offsetX + 'px, ' + offsetY + 'px)');
 	});
-
-    $(window).on('scroll', parallaxEffect);
-    $(window).on('resize', parallaxEffect);
-
-    // Инициализация эффекта при загрузке страницы
-    parallaxEffect();
 
 
 //кнопка sandwich

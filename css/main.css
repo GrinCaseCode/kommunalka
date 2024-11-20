@@ -334,7 +334,7 @@ form {
 	background: #fff;
 }
 .item-about .btn-main:hover {
-	background: #575756;
+	background: #214E9D;
 	color: #fff;
 }
 .item-about .btn-main i {
@@ -429,6 +429,9 @@ form {
 .item-news:hover {
 	box-shadow: 0 5px 10px #90b4f4;
 }
+.item-news:hover .item-news__image img {
+	transform: scale(0.95);
+}
 .item-news__image {
 	height: 220px;
 	margin-bottom: 27px;
@@ -442,6 +445,7 @@ form {
     object-fit: cover;
     font-family: 'object-fit: cover;';
 	border-radius: 16px;
+	transition: all 0.5s;
 }
 .item-news__date {
 	margin-bottom: 12px;
